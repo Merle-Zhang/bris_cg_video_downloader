@@ -22,7 +22,7 @@ link = r'https://web.microsoftstream.com/video/[^"]+'
 # Find all the links and then remove the duplicates
 expression = f'aria-label="{name}[^"]+" href="{link}"'
 p = re.compile(expression)
-namelinks = set([x.group() for x in re.finditer(expression, txt)])
+namelinks = sorted(list(set([x.group() for x in re.finditer(expression, txt)])))
 
 # Build the map {filename -> streamlink}
 links = {re.search(name, namelink).group(): re.search(link, namelink).group() for namelink in namelinks}
