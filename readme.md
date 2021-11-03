@@ -2,6 +2,9 @@
 
 If you are struggling with accessing the videos in CG workbooks like me, I've uploaded all the videos in CG workbooks to MS Streams and put their links in the following table. Enjoy!
 
+If you are using the lab machine, Firefox cannot play Stream videos so please use Chrome instead :)
+
+
 [//]: <> (start-of-links)
 
 | Name | Link |
