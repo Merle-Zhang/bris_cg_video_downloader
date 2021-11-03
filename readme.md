@@ -51,7 +51,7 @@ If you are struggling with accessing the videos in CG workbooks like me, I've up
 ## How I did this
 
 1. Download all the videos from the CG repo with [download.py](https://github.com/Merle-Zhang/bris_cg_video_downloader/blob/main/download.py).
-2. Manually upload them to my MS Streams and make them visible to everyone in UoB.
+2. Manually upload them to my MS Stream and make them visible to everyone in UoB.
 3. Save the page at `https://web.microsoftstream.com/studio/videos` as HTML and run [extract_links](https://github.com/Merle-Zhang/bris_cg_video_downloader/blob/main/extract_links.py) on it.
 
 ### Feel free to submit any issue or pull request!
