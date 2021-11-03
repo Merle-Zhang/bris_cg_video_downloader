@@ -1,7 +1,9 @@
 import os
 
 repo = "https://github.com/drslock/CG2021/archive/refs/heads/main.zip"
-os.system(f"curl -LJO {repo}")
+# os.system(f"curl -LJO {repo}")
+
+os.system(f"wget --no-check-certificate --content-disposition {repo}")
 
 zip = "CG2021-main.zip"
 os.system(f"unzip {zip}")
